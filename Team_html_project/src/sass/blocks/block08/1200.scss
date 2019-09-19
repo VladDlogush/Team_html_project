@@ -1,0 +1,39 @@
+@media (min-width: 1200px) {
+  .block08 {
+    padding-bottom: 120px;
+
+    &__wrappertitle { 
+      &::before { 
+        background-image: url(../images/block08/block08-bg_1200.png);
+        
+        @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: url(../images/block08/block08-bg_1200@2x.png);
+        }
+      }
+    }
+
+    &__title {
+      margin-left: 365px; 
+      @include text-size(30px,1.25); 
+    }
+
+    &__subtitle {
+      margin-left: 365px;
+      max-width: 260px;
+      @include text-size(10px,1.5); 
+    }
+
+    &__wrapperdescr {
+      max-width: 230px;
+    }
+
+    &__descr-title {
+      @include text-size(10px,1.625);
+    }
+
+    &__descr-text {
+      @include text-size(9px,13px);
+    }
+
+  } /* .block08 end */
+}

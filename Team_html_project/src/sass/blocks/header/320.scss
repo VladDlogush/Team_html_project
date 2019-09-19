@@ -1,0 +1,149 @@
+.hidden-mob {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;  
+  min-width: 320px;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 18px; 
+  padding-bottom: 15px;
+
+  &__button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 28px;
+    height: 17px;
+    cursor: pointer;
+    background-color: transparent; 
+  }
+
+  &__icon {
+    width: 100%; 
+    height: 17px;
+    margin: auto 0;
+    fill: $maintextcolor;
+  }
+}
+
+.header {
+  position: relative;  
+  padding-top: 15px;
+  padding-bottom: 40px;
+  color: $maintextcolor;
+  z-index: 1;
+  text-align: center;
+  background: url('../images/header/bgimage.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: $backgroundcolor;
+  overflow: hidden;
+
+  &::before {
+    display: block;
+    content: "GOIT";
+    letter-spacing: -2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transform: translateY(-56%);
+    @include text-family("acrom",800);  
+    @include text-size(120px,70px);    
+    color: $blackcolor;
+    opacity: 0.2;
+    z-index: -2;
+  }
+
+  &__bgimage {
+    display: none;
+  }
+
+  &__wrapper-title {
+    max-width: 424px;
+    margin: 0 auto;    
+    margin-bottom: 155px;
+  }
+
+  &__title { 
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+    @include text-family("acrom",800);  
+    @include text-size(30px,1.3333);   
+    color: $maintextcolor; 
+
+    &::before,
+    &::after { 
+      color: $maintextcolor;
+      @include text-family("acrom",800);  
+      @include text-size(30px,1.3333);   
+    }
+  }
+
+  &__title-descr {
+    position: relative;
+    text-transform: uppercase;
+    color: $maintextcolor; 
+    @include text-family("acrom",700);  
+    @include text-size(13.5px,19.5px); 
+    letter-spacing: -0.5px; 
+    padding: 0 26px;
+    margin: 0;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 6px;
+      content: "\003C";
+      color: #17ecff;
+      @include text-family("acrom",800);  
+      @include text-size(22.5px,19.5px);   
+    }
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      right: -4px;
+      content: "/\003E";
+      color: #17ecff;
+      @include text-family("acrom",800);  
+      @include text-size(22.5px,19.5px);  
+    }
+  }
+
+  &__wrapper-descr {
+    max-width: 364px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
+
+  &__subtitle {
+    text-transform: uppercase;
+    color: $maintextcolor;
+    @include text-family("acrom",800);  
+    @include text-size(13.5px,19.5px);  
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  &__subtitle-descr { 
+    @include text-family("acrom",400);  
+    @include text-size(13.5px,19.5px);  
+    text-align: left;
+    color: $greytextcolor;
+    margin-bottom: 35px;
+    margin: 0;
+  } 
+
+  &__button {
+    @include orange-button(12px, 19px, 35px, 18px);
+    letter-spacing: 1.5px;
+  }
+}
+

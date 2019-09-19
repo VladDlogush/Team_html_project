@@ -1,0 +1,14 @@
+@media (min-width: 1200px) {
+    .block12 {
+        padding-bottom: 130px;
+      }
+
+    .block12__underwrap {
+    grid-template-rows: 64px 20px 60px 34px 190px;
+    padding: 0;
+    }
+
+    .block12__list-item:not(:last-child){
+        padding-bottom:4%;
+    }
+}

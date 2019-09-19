@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+  .footer__items-adress {
+    flex-basis: 10%;
+  }
+
+  .footer__footer__items-adress {
+    flex-basis: 12%;
+  }
+
+  .footer__button-wrapper {
+    padding: 45px 0;
+    flex-basis: 19%;
+  }
+
+  .footer__social-list {
+    display: block;
+    flex-basis: 70px;
+  }
+
+  .footer__button {
+    font-size: 7px;
+    line-height: 27px;
+  }
+
+  .footer__social-item {
+    margin: 5px 0;
+    font-size: 9px;
+    line-height: 11px;
+  }
+
+
+}

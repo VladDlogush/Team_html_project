@@ -1,0 +1,152 @@
+@media (min-width: 768px) {
+
+  .block16__headline-wrapper{
+    padding:0 0;
+    width:50%;
+    align-self:flex-end;
+    padding-bottom:76px;
+  }
+
+  .block16__headline{
+    font-size: 24px;
+    padding-right:70px;
+    text-align: left;
+  }
+  
+  .block16__motivation-article{
+    padding:0 0;
+    position: relative;
+    width:50%;
+    align-self:flex-start;
+  }
+  
+  .block16-course-features__list{
+    padding:0 0;
+    
+  }
+
+  .block16__first-image{
+    position: absolute;
+    top:0;
+    left:65px;
+    
+  }
+  
+  .block16__second-image{
+    display:block;
+    position: absolute;
+    bottom:48px;
+    right:118px;
+  }
+
+  .block__inner16-one{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom:48px;
+    
+  }
+  
+  .block16__motivation-article{
+    padding-bottom:20px;
+  }
+
+  .block16__underpicture-list{
+    padding-left:0;
+  }
+    
+//undertext-flex
+  
+
+  .block16__underpicture-list-item{
+    display: flex;
+    flex-direction: row;
+    padding-bottom:20px;
+  }
+
+  .block16__list-item-headline{
+    width:30%;
+    margin-top:0;
+    padding-right: 0%;
+  }
+
+  .block16__list-item-text{
+    margin:0;
+    width:64%;
+    padding:0 10%;
+
+  }
+  
+  
+
+  //down-flex-styles
+
+  .block16-course-features{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;   
+  }
+
+  .block16-course-features__headline{
+    width:16%;
+    padding:0;
+  }
+
+.block16-course-features__list{
+    padding:0 0;
+    width:75%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+  }
+  
+  
+  .block16-course-features__list-item{
+    flex-basis:29%; 
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  .block16-course-features__list-item:nth-child(n+4){
+    padding-bottom:0;
+  }
+  
+  .block16-course-features__list-item-last{
+    display: flex;
+    flex-direction: row;
+    margin-left:-25px;
+    padding-bottom:0;
+    padding-top:10px;
+    flex-basis:170px;
+  }
+  
+  .block16-price_headline{
+    min-width:50%;
+    font-size:8px;
+    line-height:13px;
+  }
+  
+  .block16__price-wrapper{
+    flex-basis:50%;
+  }
+  
+  .block16__line-text{
+    font-size:8px;
+    line-height:20px;
+  }
+  
+  .block16__new-price{
+    font-size:17px;
+    line-height:20px;
+  }
+  
+  .block16__new-price-small{
+    font-size:9px;
+    line-height:20px;
+  }
+
+}
+  
+

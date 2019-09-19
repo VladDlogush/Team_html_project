@@ -1,0 +1,75 @@
+.block10 {
+  padding-bottom: 75px;
+}
+
+.block10__headline-wrapper {
+  padding: 0 17%;
+}
+
+.block10__img-wrapper {
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.block10__motivation-article {
+  padding: 0 17%;
+}
+
+.block10-course-features__list {
+  padding: 0 17% 0 25%;
+}
+
+.block10__headline-wrapper {
+  display: none;
+}
+
+.block10-course-features__headline {
+  padding: 13px 17% 20px 17%;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.block10-course-features__list-item-headline {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.block10-course-features__list-item-text {
+  margin: 0;
+}
+
+.block10-course-features__list-item {
+  padding-bottom: 20px;
+}
+
+.block10__first-image-inner {
+  max-width: 100%;
+}
+
+.block10__sectioninner-footer {
+  padding: 14px 14% 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.block10__anderpicture-text--lightgrey {
+  font-size: 13px;
+  margin-bottom: 32px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.block10__button {
+  @include orange-button(11px, 50px, 40px, 0);
+
+  margin: 0;
+  width: 70%;
+  align-self: center;
+  padding: 0 20px;
+
+  @media (max-width: 450px) {
+    padding: 0 10px;
+    width: 90%;
+  }
+}

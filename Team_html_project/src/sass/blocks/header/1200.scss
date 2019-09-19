@@ -1,0 +1,80 @@
+@media (min-width: 1200px) {
+  .menu {
+    max-width: 1200px;
+    padding: 0 38px;
+    padding-bottom: 60px;
+  }
+
+  .header {
+    &::before {
+      @include text-size(262px,113px); 
+    }
+
+    &__wrapper-title {
+      max-width: 400px;
+    }
+
+    &__title { 
+      font-size: 50px;
+      max-width: 400px; 
+
+      &::before, &::after {
+        font-size: 50px;
+      }
+
+      &-descr {
+        max-width: 240px;
+        margin-left: 42px;
+        margin-top: 30px;
+        padding-right: 36px;
+        @include text-size(9px,15px); 
+
+        &::before, &::after {
+          @include text-size(15px,15px); 
+        }
+      }
+    } /* header__title end*/
+
+    &__wrapper-descr {
+      max-width: 164px;
+    }
+
+    &__subtitle {
+      margin-bottom: 10px;
+
+      &-descr { 
+        @include text-size(10px,1.5); 
+      }
+    }
+
+
+    &__footer { 
+      max-width: 1124px;  
+      
+      &::before {  
+        @include text-family("Futura",700);  
+        @include text-size(15px,0.75); 
+      }
+
+      &::after {
+        position: absolute;
+        top: 45px;
+        left: 30px;
+        display: block;
+        content: "02.";
+        color: $maintextcolor; 
+        @include text-family("Futura",400);  
+        @include text-size(9px,11px);
+        text-align: left; 
+      }
+    } /* header__footer end*/
+
+  } /* .header end */
+
+  .socials {
+    bottom: auto;
+    top: 40px;
+  }
+
+} /* @media end*/
+

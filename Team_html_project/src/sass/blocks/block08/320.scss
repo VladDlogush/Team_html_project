@@ -1,0 +1,71 @@
+.block08 {
+  margin: 0;
+  padding-bottom: 50px;
+ 
+  &__wrappertitle {
+    position: relative;
+    z-index: 1;
+    padding-top: 235px;  
+    padding-bottom: 25px;
+    max-width: 305px;
+    margin: 0 auto;
+
+    &::before {
+      position: absolute;
+      content: "";
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 235px; 
+
+      background-image: url(../images/block08/block08-bg.png);
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: contain;
+      z-index: -1;
+
+      @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/block08/block08-bg@2x.png);
+      }
+    } 
+  }
+
+  &__title {
+    margin: 0;
+    padding-bottom: 8px; 
+  }
+
+  &__subtitle {
+    margin: 0; 
+    @include text-family("acrom",700);  
+  }
+
+  &__wrapperdescr {
+    max-width: 305px;
+    margin: 0 auto;
+  }
+
+  &__descr-image {
+    padding-bottom: 22px;
+  }
+
+  &__descr-title {
+    margin: 0;
+    @include text-size(14.5px,1.571); 
+    text-transform: uppercase;
+    padding-left: 24px;
+    padding-bottom: 18px;
+
+    &::before {
+      left: 0; 
+      top: 8px;
+      margin: 0; 
+    }
+  }
+
+  &__descr-text {
+    margin: 0;
+  }
+}
+ 

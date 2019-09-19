@@ -1,0 +1,45 @@
+@media (min-width:1200px) {
+    .block06__subinner{
+       
+    }
+
+    .block06__image{
+        top: -55px;
+        left: 21%;
+
+        &:before {  
+           
+            top: 31.5%;
+            font-size: 165px;
+          }
+     }
+
+    .block06__headline-part{
+    padding:0 0 12.12% 0; 
+    }
+
+    .block06__headline {
+    padding: 0 0 5.38% 0;
+    font-size: 27px;
+    line-height: 37.5px;
+    }
+
+    .block06__subheadline{
+    padding:0 29.6% 0 15.15%;
+        
+    }
+
+    .block06__list{
+        padding-right:21.83%;
+    }
+    
+    .block06__list-element {
+        padding:0 0 8.3% 0;
+    }
+    
+    .block06__list-title{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+}

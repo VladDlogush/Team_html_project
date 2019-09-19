@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .block13__inner{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .block13__title--cont{
+    flex-basis: 39.8%;
+  }
+
+  .block13__title{
+    padding: 0 0 22px 0;    
+  }
+
+  .block13__desc-wrap{
+    padding: 0 50px 0 0 ;
+  }
+
+  .block13__img{
+    width: 36.2%;
+  }
+
+  .block13__subtitle--cont{
+    width: 24%;
+  }
+
+  .block13__subtitle{
+    padding: 0 54px 16px 0;
+  }
+
+  .block13__subtitle--desc{
+    padding: 0 12px 0 0;
+  }
+
+}

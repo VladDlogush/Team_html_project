@@ -1,0 +1,40 @@
+@media (min-width: 1200px) {
+
+  .block19 {
+    padding-bottom: 110px;
+  }
+
+    .block19__registration{
+        padding:0 50px 0 0;
+      }
+
+      .block19__registration:before{
+        font-size:122px;
+        left:170px;
+        top:20px;
+      }
+
+      .block19__main-text{
+        padding:0 0 0 90px;
+        flex-basis:50%;
+      }
+
+      .block19__subheadline{
+        margin-bottom:12px;
+      }
+
+      .block19__button{
+        
+        line-height:32px;
+        
+      }
+
+      .block19__ps-text:before{ 
+        position: absolute;
+        left:-90px;
+      }
+      .block19__ps-text,.block19__text,.block19__endtext{
+        padding-right:20px;   
+      }
+
+}

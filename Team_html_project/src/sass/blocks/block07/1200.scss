@@ -1,0 +1,51 @@
+@media (min-width: 1200px) {
+  .block07 {
+    padding-bottom: 100px;
+
+    &__wrapper-titletext {
+      padding-left: 60px;
+      max-width: 290px; 
+    }
+
+    &__title {
+      @include text-size(30px,1.25); 
+      margin-bottom: 30px;
+    }
+
+    &__subtitle {
+      @include text-size(10px,1.5); 
+    }
+
+    &__article {
+      max-width: 350px;
+      min-width: 350px;
+
+      &--sdfirst {
+        margin-bottom: 40px;
+      }
+    }
+
+    &__wrapper-article-text {
+      max-width: 190px;
+    }
+
+    &__articletext {
+      &--firstbold {
+        @include text-size(10px,1.5); 
+      }
+
+      &--lightgrey {
+        @include text-size(9px,13px); 
+      }
+    }
+
+    &__articletitle {
+      @include text-size(10px,1.625);  
+    }
+
+  } /* .block07 end*/
+} /* @media end */
+
+
+// @include text-family("acrom",400);  
+// @include text-size(236px,100px); 

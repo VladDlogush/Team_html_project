@@ -1,0 +1,48 @@
+@media (min-width: 1200px) {
+  .block15 {
+    padding-bottom: 125px;
+
+    &__title {
+      @include text-size(30px,37.5px); 
+      margin-bottom: 50px;
+    }
+
+    &__list {
+      max-width: 380px;
+    }
+
+    &__item {
+      margin-bottom: 30px;
+      margin-right: 15px;
+      flex-basis: 180px;
+      
+      &--lastnum, &--end {
+        margin-bottom: 0;
+      }   
+
+      &--right {
+        margin-right: 0;
+      }
+
+      &-title {
+        @include text-size(10px,16px); 
+      }
+
+      &-text {
+        @include text-size(9px,11px); 
+      }
+    }
+
+    &__add-text {
+      @include text-size(10px,15px); 
+
+      &::before {
+        @include text-size(30px,30px);
+      }
+    }
+
+    &__button { 
+      @include orange-button(7.5px, 11px, 24px, 11px); 
+    }
+  }
+}

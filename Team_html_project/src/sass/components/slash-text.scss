@@ -1,0 +1,20 @@
+.slash-text{
+    position: relative;
+    font-family: 'Acrom', sans-serif;
+    color:$maincolor;
+    font-weight: 500;
+  }
+  
+.slash-text:before{
+    content: "/";
+    font-size:31px;
+    font-weight:500;
+    color:$blackcolor;
+    position:absolute;
+    display:inline-block;
+    left:-20px;
+    top:0px;
+    height:21px;
+    transform: rotate(15deg);
+    // margin-bottom:2px;
+  }

@@ -1,0 +1,104 @@
+.counter-list {
+  counter-reset: count-box 0;
+}
+
+.counter-list-item {
+  counter-increment: count-box;
+  position: relative;
+}
+
+.counter-list-item:before {
+  content: "\005b  00"counter(count-box) " \005d";
+  position: absolute;
+  left: -50px;
+  top: 20px;
+  color: $maintextcolor;
+  background: $maincolor;
+  @extend %acrom-bold;
+  @extend %text1319;
+  transform: rotate(-90deg);
+  line-height: 2px;
+  height: 10px;
+
+  @media (min-width: 768px) {
+    height: 7px;
+    font-size: 6px;
+    line-height: 7px;
+    left: -30px;
+    top: 10px;
+  }
+}
+
+// номера с бирюзовым квадратом
+
+.counter-list-number-cyan {
+  counter-reset: count-box 0;
+}
+
+.counter-list-number-cyan__item {
+  counter-increment: count-box;
+  position: relative;
+}
+
+.counter-list-number-cyan__item:before {
+  content: "0" counter(count-box) ".";
+  position: absolute;
+  color: $blackcolor;
+  @extend %acrom-extrabold;
+  text-transform: uppercase;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.counter-list-number-cyan__item:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-color: $markertextcolor;
+}
+
+.counter-list-number-cyan__item--small:before {
+  content: "0" counter(count-box) ".";
+  position: absolute;
+  left: -30px;
+  top: 0px;
+  color: $blackcolor;
+  @extend %acrom-extrabold;
+  font-size: 16px;
+}
+
+.counter-list-number-cyan__item--large:before {
+  left: -70px;
+  top: 0px;
+  font-size: 25px;
+}
+
+.counter-list-number-cyan__item--large:after {
+  margin-right: 10px;
+  margin-bottom: 2px;
+  left: -40px;
+  top: 30px;
+  width: 10px;
+  height: 10px;
+}
+
+.counter-list-number-cyan__item--small:before {
+  left: -30px;
+  top: 0px;
+  font-size: 16px;
+}
+
+.counter-list-number-cyan__item--small:after {
+  margin-right: 10px;
+  margin-bottom: 2px;
+  left: -15px;
+  top: 20px;
+  width: 7px;
+  height: 7px;
+}

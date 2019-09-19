@@ -1,0 +1,114 @@
+.block9 {
+  padding-bottom: 50px;
+}
+
+.block9__main-title {
+  padding: 0 16% 20px;
+}
+
+.block9__sectioninner-title {
+  padding: 0 15% 0;
+}
+
+.block9__sectioninner-text {
+  margin: 0;
+}
+
+.block9__sectioninner-items {
+  padding: 0 9%;
+}
+
+.block9__list {
+  position: relative;
+  padding: 0 10% 0 26%;
+}
+
+.block9__item-conclusion {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19.5px;
+  padding: 0 2% 0;
+}
+
+.block9__item-conclusion:before {
+    font-size:40px;
+    top:7px;
+}
+
+.visually-sd-hiden {
+  display: none;
+}
+
+.block9-main-title-part1::before,
+.block9-main-title-part2::after {
+  font-size: inherit;
+  line-height: inherit;
+  font-family: "Acrom";
+  color: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+  line-height: inherit;
+  background-color: inherit;
+}
+
+.block9-main-title-part1,
+.block9-main-title-part2 {
+  margin: 0;
+}
+
+.block9-main-title-part1::before {
+  content: "\005b  ";
+  background: #000;
+  color: $maintextcolor;
+}
+
+.block9-main-title-part2::after {
+  content: " \005d";
+  color: #000;
+  background: $maintextcolor;
+}
+
+.block9-main-title-part2 {
+  text-transform: uppercase;
+}
+
+.block9__sectioninner-items {
+  padding-top: 60px;
+}
+
+.block9__item {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.block9__item-title {
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.block9__item-text {
+  margin: 0;
+}
+
+.block9__sectioninner-title:before {
+  content: "4";
+  font-size: 240px;
+  top: -31px;
+  left: 55px;
+  color: #f7f7f7;
+}
+
+.block9__sectioninner-title:after {
+  content: "stap";
+  text-transform: uppercase;
+  font-size: 70px;
+  top: 63px;
+  left: 112px;
+  position: absolute;
+  font-family: "Acrom", serif;
+  font-weight: 800;
+  z-index: -1;
+  color: #f7f7f7;
+  transform: rotate(90deg);
+}

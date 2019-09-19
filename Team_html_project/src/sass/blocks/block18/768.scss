@@ -1,0 +1,111 @@
+@media (min-width: 768px) {
+    .block18{
+        padding-bottom:100px;
+    }
+
+    .block18__headline{
+        //padding:0 100px 0 170px;
+        
+        text-align:left;
+        display:block;
+        padding-left:58%;
+    }
+
+    .block18__inner{
+        position: relative;
+        display: block;
+    }
+    
+    .block18-price{
+        width:35%;
+        position: absolute;
+        left:0;
+        top:50%;
+        order:-1;
+        height:192px;
+        margin:0 0 0 64px;
+        transform:translateY(-50%);
+    }
+    
+    .block18-price__item-value, .block18-price__item-bluemarker{
+        font-size:9px;
+        line-height: 14px;
+    }
+    
+    .block18-price__item-value{
+         text-align: left;
+         
+    }
+    
+    .block18-price__item-bluemarker{
+        color:$backgroundcolor; 
+    }
+    
+    .block18-price__smallnum{
+        font-size: 10px;
+        line-height: 42px;
+        padding-left:28px;
+        
+        &:before{
+        top: 20px;
+        width: 25px;
+        }
+       
+    }
+     
+    .block18-price__item-bluemarker{
+        padding-top:18px;
+    
+    }
+    
+    .block18-price__item-new{
+        display:flex;
+        flex-direction: row;
+        font-family: 'Acrom';
+        align-items:flex-end;
+        font-weight:800px;
+    }
+    
+    .block18-price__value{
+        font-size:38px;
+        margin:0;
+    }
+    
+    .block18-price__subvalue{
+        font-size:13px;
+        line-height: 29px;
+    }
+    
+    .block18__slash-text{
+        font-size:9px;
+        line-height: 13px;
+        margin-bottom:30px;
+    
+    }
+    
+    .block18__slash-text:before{
+        font-size:40px;
+        font-weight:500;
+        top:10px;
+        left:-30px;
+    }
+    
+    .block18__textarea{
+        padding:0 0 0 0;
+        width: 32%;
+        margin-left:auto;
+        margin-right:70px;
+        
+    }
+
+    .block18__textarea-inner{
+        padding:0 10px 0 30px;
+    }
+    
+    .block18__button{
+        @include orange-button(10px, 28px, 0px, 0px);
+        width:100%;
+        font-size:6px;
+     }
+    
+}

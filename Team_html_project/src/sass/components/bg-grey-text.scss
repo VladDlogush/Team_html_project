@@ -1,0 +1,16 @@
+.bg-grey-text {
+    position: relative;
+  }
+  
+.bg-grey-text:before{
+    content: "";
+    position:absolute;
+    
+    font-family: 'Acrom',serif;
+    font-weight:800;
+    //color: #f7f7f7;
+    z-index:-1;
+    color: rgba(0, 0, 0, 0.051);
+  }
+
+  

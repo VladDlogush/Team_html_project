@@ -1,0 +1,78 @@
+.block15 { 
+  padding-bottom: 65px;
+
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: left;
+    max-width: 270px;
+    padding-left: 30px;
+  }
+
+  &__list {
+    margin: 0 auto;
+    max-width: 270px;
+    padding-left: 30px;
+  }
+
+  &__item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 20px;
+
+    &--lastnum {
+      margin-bottom: 40px;
+    }
+
+    &--end {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      display: block;
+      min-width: 25px;
+      text-align: right;
+      @include text-size(16px,19px); 
+      left: -40px;
+    }
+
+    &::after {
+      left: -25px;
+      top: 20px;
+      width: 7px;
+      height: 7px;
+    }
+  }
+
+  &__item-title {
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__item-text { 
+    margin: 0;
+  }
+
+  &__add-text {
+    padding-left: 35px;
+    margin: 0;
+    margin-bottom: 35px;    
+    @include text-size(13.5px,19.5px);
+    @include text-family("Acrom",700); 
+
+    &::before {
+      left: 15px;  
+      @include text-size(23px,23px);
+      @include text-family("Acrom",800); 
+    }
+  }
+
+  &__button {
+    margin: 0;
+    @include orange-button(11px, 16px, 36px, 15px); 
+  }
+
+} /* .block15 end */
+
+

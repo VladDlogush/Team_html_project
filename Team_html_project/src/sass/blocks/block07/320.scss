@@ -1,0 +1,78 @@
+.longline {
+  padding-left: 37px;
+}
+
+.visually-sd-hiden {
+  display: none;
+}
+
+.block07 { 
+  padding-bottom: 35px;
+  
+  &__wrapper-title {
+    margin-bottom: 16px;
+  }
+
+  &__wrapper-titletext {
+    padding-left: 39px;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    max-width: 210px;
+    padding-left: 37px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle { 
+    margin: 0;
+    max-width: 376px; 
+    @include text-family("acrom",600);  
+    @include text-size(13.5px,19.5px);  
+  }
+
+
+  &__wrapper-descr {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+
+  &__descrimage {
+    margin-bottom: 20px;
+  }
+
+  &__article {
+    padding: 0 39px;
+  }
+
+  &__wrapper-articletitle {
+    max-width: 200px;
+    margin-bottom: 15px; 
+  }
+
+  &__articletitle { 
+    margin: 0; 
+    @include text-size(13.5px,19.5px);   
+  }
+
+  &__articletext {  
+    margin: 0; 
+    @include text-size(13.5px,19.5px);  
+
+    &--firstbold {
+      margin-bottom: 10px;
+      @include text-family("acrom",700);  
+    }
+
+    &--lightgrey {
+      @include text-family("acrom",400);  
+      color: $secondgreytextcolor;
+    }
+  }
+
+  &__article--sdfirst {
+    order: -1;
+    margin-bottom: 40px;
+  }
+}

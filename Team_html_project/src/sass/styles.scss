@@ -1,0 +1,20 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+
+/* Base */
+
+@import './base';
+@import './mixins';
+@import 'fonts';
+@import './placeholders';
+
+/* Components */
+@import './components/style';
+
+/* Blocks */
+// @import './blocks/header/style';
+
+
+@import './blocks/style';

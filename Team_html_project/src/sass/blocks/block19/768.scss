@@ -1,0 +1,53 @@
+@media (min-width: 768px) {
+  .block19__inner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.block19 {
+  padding-bottom: 80px;
+}
+
+    .block19__registration{
+        padding:0 38px 0 0;
+        flex-basis:50%;
+      }
+
+      .block19__registration-text{
+          padding-top:20px;
+      }
+
+      .block19__registration:before{
+        font-size:110px;
+        left:180px;
+        top:30px; 
+      }
+
+      .block19__main-text{
+        padding:0 0 0 70px;
+        flex-basis:50%;
+      }
+
+      .block19__subheadline{
+          
+        margin-bottom:33px;
+      }
+
+      .block19__button{
+        margin-left:48px;
+        width:57%;
+        line-height:28px;
+        font-size:7px;
+      }
+
+      .block19__ps-text:before{ 
+        position: absolute;
+        left:-70px;
+      }
+      .block19__ps-text,.block19__text,.block19__endtext{
+        padding-right:20px;   
+      }
+
+}

@@ -1,0 +1,21 @@
+
+
+.braces::before,.block__headline::after{
+  font-size: inherit;
+  line-height: inherit;
+  font-family: "Acrom";
+  color:inherit; 
+  font-weight: inherit;
+  text-transform: uppercase;
+  line-height: inherit;
+  background-color: inherit;
+}
+
+.braces::before{
+    content: "\005b  ";  
+        
+}
+
+.braces::after{
+    content: " \005d";
+}

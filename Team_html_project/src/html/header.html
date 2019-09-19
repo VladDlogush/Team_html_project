@@ -1,0 +1,140 @@
+<header class="header">
+  <!-- <div class="header__bgtext">GOIT</div> -->
+
+  <div class="burger">
+    <!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+    <input id="toggle" type="checkbox" />
+
+    <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+
+    <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+    <label class="toggle-container" for="toggle">
+      <!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+      <span class="button-toggle"></span>
+    </label>
+
+    <!-- Навигация -->
+    <nav class="nav">
+      <a rel="nofollow" rel="noreferrer" class="nav-item" href="#facts"
+        >Факты</a
+      >
+      <a rel="nofollow" rel="noreferrer" class="nav-item" href="#course"
+        >Видео-курс</a
+      >
+      <a rel="nofollow" rel="noreferrer" class="nav-item" href="#start"
+        >Старт в IT</a
+      >
+      <a rel="nofollow" rel="noreferrer" class="nav-item" href="#price"
+        >Цена курса</a
+      >
+    </nav>
+
+    <a href="" class="menu__logo">
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          sizes="63px"
+          srcset="
+            ./images/header/logo_1200.png     63w,
+            ./images/header/logo_1200@2x.png 126w
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          sizes="57px"
+          srcset="
+            ./images/header/logo_768.png     57w,
+            ./images/header/logo_768@2x.png 114w
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          sizes="66px"
+          srcset="
+            ./images/header/logo.png     66w,
+            ./images/header/logo@2x.png 132w
+          "
+        />
+        <img src="./images/header/logo.png" alt="go it logo" />
+      </picture>
+    </a>
+  </div>
+
+  <!-- <nav class="menu">
+    
+    <button class="menu__button">
+      <svg class="menu__icon hidden-tab">
+        <use href="./images/sprite/menu.svg#icon-menu"></use>
+      </svg>
+      <svg class="menu__icon hidden-mob">
+        <use href="./images/sprite/menu.svg#icon-menu_768"></use>
+      </svg>
+    </button>
+  </nav> -->
+
+  <div class="block__inner">
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        sizes="381px"
+        srcset="
+          ./images/header/bg_2guys_cutted.png    381w,
+          ./images/header/bg_2guys_cutted@2x.png 762w
+        "
+      />
+      <source media="(min-width: 320px)" srcset="" />
+      <img src="" alt="" class="header__bgimage" />
+    </picture>
+
+    <div class="header__wrapper-content">
+      <div class="header__wrapper-title">
+        <h1 class="header__title block__headline">
+          <span class="hidden-mob"
+            >Пошаговый Видео &mdash;<br />&mdash; курс_</span
+          >
+          <span class="hidden-tab">Пошаговый Видео-курс_</span>
+        </h1>
+        <p
+          class="header__title-descr text-formatting text-formatting--darkgrey-bold"
+        >
+          &laquo;Старт в карьере web-разработчика с 0&raquo; для тех, кто давно
+          хотел зарабатывать больше работая в IT, но не знал, где реализовать
+          себя
+        </p>
+      </div>
+
+      <div class="header__wrapper-descr">
+        <h2
+          class="header__subtitle text-formatting text-formatting--darkgrey-extrabold"
+        >
+          Открой для себя способ начать карьеру в сфере IT
+        </h2>
+        <p
+          class="header__subtitle-descr 
+          text-formatting text-formatting--lightgrey"
+        >
+          / Без математического склада ума, работая в комфортных условиях по
+          приятному графику над интересными задачами и получая доход в
+          &#36;&#36;&#36;.
+        </p>
+      </div>
+    </div>
+
+    <button class="button header__button ">Приобрести курс</button>
+  </div>
+
+  <div class="header__footer hidden-mob">
+    <div class="socials">
+      <a href="" class="socials__link">
+        <svg class="socials__icon">
+          <use href="./images/sprite/socials.svg#icon-facebook"></use>
+        </svg>
+      </a>
+      <a href="" class="socials__link">
+        <svg class="socials__icon">
+          <use href="./images/sprite/socials.svg#icon-twitter"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</header>

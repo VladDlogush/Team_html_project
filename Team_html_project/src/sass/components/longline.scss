@@ -1,0 +1,46 @@
+.longline {
+    position: relative;
+    padding-left:26px;
+  }
+  
+.longline:before{
+    content: "";
+    position:absolute;
+    display:inline-block;
+    left:0;
+    top:7px;
+    margin-right: 14px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom:2px;
+  }
+
+
+.longline--small:before{
+    width: 14px;
+    height: 4px;
+}
+
+.longline--medium:before{
+    width: 16px;
+    height: 4px;
+}
+
+.longline--big:before{
+    width: 20px;
+    height: 3px;
+}
+
+.longline--large:before{
+    width: 25px;
+    height: 4px;
+
+}
+
+               
+         
+            
+            
+                
+              
+           
+              
